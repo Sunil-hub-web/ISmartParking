@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fifteen">
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="@dimen/twenty_five"
+                android:layout_height="@dimen/twenty_five"
+                android:layout_centerVertical="true"
+                android:src="@drawable/sports_car"
+                app:tint="#00acec">
+
+            </ImageView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tex_vechicleNumber"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fifteen"
+                android:layout_toRightOf="@id/img_user"
+                android:hint="Vechicle Number"
+                app:boxStrokeColor="#00acec"
+                app:hintTextColor="#94979A">
+
+                <EditText
+                    android:id="@+id/vechicleNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:inputType="textEmailAddress"
+                    android:longClickable="false"
+                    android:padding="@dimen/ten"
+                    android:textColor="#00acec"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/textsize">
+
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_marginEnd="@dimen/fifteen"
+            android:layout_marginBottom="@dimen/fifteen"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five">
+
+                <LinearLayout
+                    android:id="@+id/lin1"
+                    android:layout_width="@dimen/two_hundred_fifty"
+                    android:layout_height="@dimen/seventy"
+                    android:layout_margin="@dimen/five"
+                    android:background="@drawable/edit_back"
+                    android:elevation="@dimen/ten"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/seventy"
+                        android:layout_height="@dimen/forty"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:layout_marginTop="@dimen/five"
+                        android:src="@drawable/motorcycle"
+                        app:tint="@color/white">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:text="2 Wheeler"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize">
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/forty_five"
+                    android:layout_height="@dimen/forty_five"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/chevron"
+                    app:tint="@color/blue1">
+
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five">
+
+                <LinearLayout
+                    android:id="@+id/lin2"
+                    android:layout_width="@dimen/two_hundred_fifty"
+                    android:layout_height="@dimen/seventy"
+                    android:layout_margin="@dimen/five"
+                    android:background="@drawable/edit_back"
+                    android:backgroundTint="@color/blue2"
+                    android:elevation="@dimen/ten"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/seventy"
+                        android:layout_height="@dimen/forty"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:layout_marginTop="@dimen/five"
+                        android:src="@drawable/sports_car"
+                        app:tint="@color/white">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:text="4 Wheeler"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/forty_five"
+                    android:layout_height="@dimen/forty_five"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/chevron"
+                    app:tint="@color/blue2">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five">
+
+                <LinearLayout
+                    android:id="@+id/lin3"
+                    android:layout_width="@dimen/two_hundred_fifty"
+                    android:layout_height="@dimen/seventy"
+                    android:layout_margin="@dimen/five"
+                    android:background="@drawable/edit_back"
+                    android:backgroundTint="@color/blue3"
+                    android:elevation="@dimen/ten"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/seventy"
+                        android:layout_height="@dimen/forty"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:layout_marginTop="@dimen/five"
+                        android:src="@drawable/cargo_truck"
+                        app:tint="@color/white">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:text="Coach/Bus/Truck"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/forty_five"
+                    android:layout_height="@dimen/forty_five"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/chevron"
+                    app:tint="@color/blue3">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five">
+
+                <LinearLayout
+                    android:id="@+id/lin4"
+                    android:layout_width="@dimen/two_hundred_fifty"
+                    android:layout_height="@dimen/seventy"
+                    android:layout_margin="@dimen/five"
+                    android:background="@drawable/edit_back"
+                    android:backgroundTint="@color/blue4"
+                    android:elevation="@dimen/ten"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/seventy"
+                        android:layout_height="@dimen/forty"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:layout_marginTop="@dimen/five"
+                        android:src="@drawable/minibus"
+                        app:tint="@color/white">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:text="Tempo/suv/Mini Bus"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/forty_five"
+                    android:layout_height="@dimen/forty_five"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/chevron"
+                    app:tint="@color/blue4">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five">
+
+                <LinearLayout
+                    android:id="@+id/lin_Scanner"
+                    android:layout_width="@dimen/two_hundred_fifty"
+                    android:layout_height="@dimen/seventy"
+                    android:layout_marginStart="@dimen/five"
+                    android:layout_marginTop="@dimen/five"
+                    android:layout_marginEnd="@dimen/five"
+                    android:layout_marginBottom="@dimen/five"
+                    android:background="@drawable/edit_back"
+                    android:backgroundTint="@color/blue5"
+                    android:elevation="@dimen/ten"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/seventy"
+                        android:layout_height="@dimen/forty"
+                        android:layout_marginLeft="@dimen/twenty"
+                        android:layout_marginTop="@dimen/five"
+                        android:src="@drawable/barcode_scanner"
+                        app:tint="@color/white">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/twenty_eight"
+                        android:text="Scanner"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize">
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/forty_five"
+                    android:layout_height="@dimen/forty_five"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/chevron"
+                    app:tint="@color/blue5">
+
+
+                </ImageView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

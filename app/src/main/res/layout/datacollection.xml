@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten">
+
+        <ImageView
+            android:id="@+id/image_v"
+            android:layout_width="@dimen/seventy"
+            android:layout_height="@dimen/eighty"
+            android:layout_gravity="clip_horizontal"
+            android:layout_marginTop="@dimen/five"
+            android:gravity="center_horizontal"
+            android:src="@drawable/sports_car"
+            app:tint="@color/teal_700">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/twenty"
+            android:layout_marginRight="@dimen/ten"
+            android:layout_toLeftOf="@id/image_back"
+            android:layout_toRightOf="@id/image_v"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/six"
+                android:layout_toRightOf="@id/image_p"
+                android:text="123456789"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/vnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image_p"
+                android:text="abcd123u45"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twelve">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/vdateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image_p"
+                android:text="28.07.2022 5:30 Pm"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twelve">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/vAdvancep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/three"
+                android:layout_toRightOf="@id/image_p"
+                android:text="Advance : 20"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize">
+
+
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="@dimen/twenty_five"
+            android:layout_height="@dimen/thirty"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/five"
+            android:gravity="center_horizontal"
+            android:src="@drawable/chevron"
+            app:tint="@color/teal_700">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_two1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rel1"
+        android:layout_gravity="center"
+        android:background="@color/background2" />
+
+
+</RelativeLayout>

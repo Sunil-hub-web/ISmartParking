@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.LoginScreen"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two_hundred">
+
+        <!-- <ImageView
+            android:id="@+id/image_p"
+            android:layout_width="@dimen/seventy"
+            android:layout_height="@dimen/seventy"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fifty"
+            android:gravity="center_horizontal"
+            android:src="@drawable/pngwing">
+
+        </ImageView>-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/rel1"
+        android:layout_marginTop="@dimen/hundred_fifty">
+
+        <TextView
+            android:id="@+id/smart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoslab_bold"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twenty_five">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/fifteen"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen">
+
+                <ImageView
+                    android:id="@+id/img_user"
+                    android:layout_width="@dimen/twenty_three"
+                    android:layout_height="@dimen/twenty_three"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/user">
+
+                </ImageView>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fifteen"
+                    android:layout_toRightOf="@id/img_user"
+                    android:hint="User Name"
+                    app:boxStrokeColor="#00acec"
+                    app:hintTextColor="#94979A"
+                    app:boxCornerRadiusBottomEnd="@dimen/ten"
+                    app:boxCornerRadiusBottomStart="@dimen/ten"
+                    app:boxCornerRadiusTopEnd="@dimen/ten"
+                    app:boxCornerRadiusTopStart="@dimen/ten">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/forty"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/ten"
+                        android:textColor="#00acec"
+                        android:textSize="@dimen/textsize">
+
+                    </EditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen">
+
+                <ImageView
+                    android:id="@+id/img_password"
+                    android:layout_width="@dimen/twenty_five"
+                    android:layout_height="@dimen/twenty_five"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/lock">
+
+                </ImageView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fifteen"
+                    android:layout_toRightOf="@id/img_password"
+                    android:hint="Password"
+                    app:boxStrokeColor="#00acec"
+                    app:hintTextColor="#94979A"
+                    app:boxCornerRadiusBottomEnd="@dimen/ten"
+                    app:boxCornerRadiusBottomStart="@dimen/ten"
+                    app:boxCornerRadiusTopEnd="@dimen/ten"
+                    app:boxCornerRadiusTopStart="@dimen/ten">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/forty"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/ten"
+                        android:textColor="#00acec"
+                        android:textSize="@dimen/textsize">
+
+                    </EditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoslab_medium"
+                android:gravity="center"
+                android:text="By pressing submit button you agree to our"
+                android:textColor="#555555"
+                android:textSize="@dimen/twelve">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoslab_medium"
+                android:gravity="center"
+                android:text="terms &amp; conditions"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/twelve">
+
+            </TextView>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="@dimen/hundred_twenty"
+                android:layout_height="2dp"
+                android:layout_below="@+id/item"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/ten"
+                android:background="@color/blue1" />
+
+            <Button
+                android:id="@+id/btn_Signin"
+                android:layout_width="@dimen/hundred_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/ten"
+                android:backgroundTint="@color/blue1"
+                android:text="Sign In">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/drawable/admin_backcard.xml" value="0.1435" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/drawable/adminback.xml" value="0.14" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/drawable/box.xml" value="0.151" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/drawable/edit_back.xml" value="0.13" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/drawable/editvechicle_back.xml" value="0.13" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/about.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/activity_admin_desh_board.xml" value="0.20677083333333332" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/activity_booking_history.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/activity_desh_board.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/activity_login_screen.xml" value="0.1" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/activity_show_bluetooh_device.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/activity_splash_screen.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/datacollection.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/entrydatalayout.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/entrylayout.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/exitdatalayout.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/exitlayout.xml" value="0.18" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/list_device_item.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/scanneractivity.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/showbluetooth.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/showpairedevices.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/toolbar.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/toolbar_admin.xml" value="0.21979166666666666" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/layout/totalcollection.xml" value="0.22083333333333333" />
+        <entry key="..\:/New folder/ISmartParking/app/src/main/res/menu/menu_main.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

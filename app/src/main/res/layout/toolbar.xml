@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_p"
+                android:layout_width="@dimen/twenty"
+                android:layout_height="@dimen/twenty"
+                android:gravity="center_horizontal"
+                android:src="@drawable/illustrationparkingsign">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/fifteen"
+                android:layout_toRightOf="@id/image_p"
+                android:text="I Smart Parking"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize">
+
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ten">
+
+            <ImageView
+                android:id="@+id/imagePrint"
+                android:layout_width="@dimen/twenty"
+                android:layout_height="@dimen/twenty"
+                android:layout_marginRight="@dimen/fifteen"
+                android:gravity="center_horizontal"
+                android:src="@drawable/printing"
+                app:tint="@color/white">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imageHistory"
+                android:layout_width="@dimen/twenty"
+                android:layout_height="@dimen/twenty"
+                android:layout_marginRight="@dimen/fifteen"
+                android:layout_toRightOf="@id/imagePrint"
+                android:gravity="center_horizontal"
+                android:src="@drawable/history"
+                app:tint="@color/white">
+
+            </ImageView>
+
+            <!--    <ImageView
+
+                    android:id="@+id/image3"
+                    android:layout_width="@dimen/thirty"
+                    android:layout_height="@dimen/thirty"
+                    android:layout_toRightOf="@id/image2"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/barcode_scan">
+
+                </ImageView>
+        -->
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.BookingHistory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty"
+            android:background="@color/transparent"
+            android:drawableRight="@drawable/ic_baseline_search"
+            android:hint="Search"
+            android:drawablePadding="@dimen/ten"
+            android:paddingLeft="@dimen/twenty"
+            android:paddingRight="@dimen/twenty">
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginTop="@dimen/ten">
+
+            <TextView
+                android:id="@+id/text_Entry"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/ten"
+                android:text="Entry\n20"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/background1">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_Exit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/ten"
+                android:text="Exit\n20"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/background2">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_Collection"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/ten"
+                android:text="Collection\n20"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/background2">
+
+
+            </TextView>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fram_data">
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
